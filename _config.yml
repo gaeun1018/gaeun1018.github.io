@@ -91,11 +91,11 @@ defaults:
 
 # Site Author
 author: Gaeun Kim
-  name: Gaeun Kim
-  picture:
-  email:
-  twitter:
-  links:
+name: Gaeun Kim
+picture:
+email:
+twitter:
+links:
     - title:
       url:
       icon:

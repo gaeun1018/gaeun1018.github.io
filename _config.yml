@@ -65,6 +65,7 @@ search_full_content: false # can have performance implications for large sites
 # to override the default setting.
 exclude:
   - CHANGELOG.md
+  - README-OLD.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules

@@ -18,7 +18,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "AI Portfolio"
 description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: ""
 url: "https://gaeun1018.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"

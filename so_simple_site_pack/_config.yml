@@ -1,0 +1,36 @@
+title: Zena · Portfolio
+description: Projects, notes, and experiments by gaeun1018
+url: https://gaeun1018.github.io
+baseurl: ""
+
+# Theme settings
+theme: so-simple-theme
+locale: ko-KR
+logo: /assets/images/so-simple-site-logo.png
+skin: default
+permalink: /:categories/:title/
+paginate: 5
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+# Author (optional: move to _data/authors.yml for multi-author blogs)
+author:
+  name: Zena
+  bio: AI/ML learner · Multimodal & Recsys
+  location: Sydney, AU
+
+# Collections & defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page

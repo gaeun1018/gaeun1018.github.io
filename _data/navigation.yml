@@ -1,16 +1,9 @@
-# Sample site navigation bar links
-
+# Header navigation
 - title: Home
   url: /
-# - title: Posts
-#   url: /posts/
-# - title: Categories
-#   url: /categories/
-# - title: Tags
-#   url: /tags/
-# - title: Recipes
-#   url: /recipes/
-# - title: Search
-#   url: /search/
-# - title: External Page
-#   url: https://the-page.com/you-want-to-link-to.html
+- title: Projects
+  url: /projects/
+- title: Face2Voice
+  url: /face2voice/
+- title: About
+  url: /about/

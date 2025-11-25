@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Zena · Portfolio
-paginate: 5
 entries_layout: grid
 ---
 <!-- ---

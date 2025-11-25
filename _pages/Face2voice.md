@@ -7,7 +7,16 @@ permalink: /face2voice/
 # Face2Voice
 > 얼굴 이미지 **+** 텍스트 → 얼굴 정체성을 반영한 **음성 합성**
 
-**업데이트:** 2025-11-04
+<!-- **업데이트:** 2025-11-04 -->
+
+## 관련 글들
+
+{% for post in site.posts %}
+  {% if post.categories contains "face2voice" %}
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}
+  {% endif %}
+{% endfor %}
+
 
 ### What it does
 - 업로드한 **얼굴 이미지**에서 face embedding 추출
